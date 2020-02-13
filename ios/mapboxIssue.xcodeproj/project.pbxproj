@@ -17,9 +17,9 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* mapboxIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mapboxIssueTests.m */; };
-		37B4AD2E87A5593112118332 /* libPods-mapboxIssueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7129FF89B76F9BE1BB8867 /* libPods-mapboxIssueTests.a */; };
-		87F13F29DAF5BD2E2575BF35 /* libPods-mapboxIssue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF1432845E8D0D4838F7858 /* libPods-mapboxIssue.a */; };
+		B305F2A6ECB49737833738C1 /* Pods_mapboxIssueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9F160D1EE6C667CD88AFA1 /* Pods_mapboxIssueTests.framework */; };
 		C3C66E58464940CD422B80CA /* libPods-mapboxIssue-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DDFFF965AAF5286CC6E5C /* libPods-mapboxIssue-tvOS.a */; };
+		CF54A534722A52A4CC1A0E8C /* Pods_mapboxIssue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F6AF5BAC06A47D35E87BF8 /* Pods_mapboxIssue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +58,12 @@
 		2D02E47B1E0B4A5D006451C7 /* mapboxIssue-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapboxIssue-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* mapboxIssue-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mapboxIssue-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D637627ECFF7127DEF294A0 /* Pods-mapboxIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxIssue.debug.xcconfig"; path = "Target Support Files/Pods-mapboxIssue/Pods-mapboxIssue.debug.xcconfig"; sourceTree = "<group>"; };
-		3BF1432845E8D0D4838F7858 /* libPods-mapboxIssue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapboxIssue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF5DB9097A984CC18CC24BE /* Pods-mapboxIssue-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxIssue-tvOS.release.xcconfig"; path = "Target Support Files/Pods-mapboxIssue-tvOS/Pods-mapboxIssue-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		41F6AF5BAC06A47D35E87BF8 /* Pods_mapboxIssue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapboxIssue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ED0194FBC895F8429805FC /* Pods-mapboxIssue-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxIssue-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-mapboxIssue-tvOS/Pods-mapboxIssue-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6C7129FF89B76F9BE1BB8867 /* libPods-mapboxIssueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapboxIssueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B8E353EF3A46308BCBFC77 /* libPods-mapboxIssue-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapboxIssue-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26EF67E5CFC92936B3464C3 /* Pods-mapboxIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxIssue.release.xcconfig"; path = "Target Support Files/Pods-mapboxIssue/Pods-mapboxIssue.release.xcconfig"; sourceTree = "<group>"; };
+		EA9F160D1EE6C667CD88AFA1 /* Pods_mapboxIssueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapboxIssueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F40DDFFF965AAF5286CC6E5C /* libPods-mapboxIssue-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapboxIssue-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B4AD2E87A5593112118332 /* libPods-mapboxIssueTests.a in Frameworks */,
+				B305F2A6ECB49737833738C1 /* Pods_mapboxIssueTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F13F29DAF5BD2E2575BF35 /* libPods-mapboxIssue.a in Frameworks */,
+				CF54A534722A52A4CC1A0E8C /* Pods_mapboxIssue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3BF1432845E8D0D4838F7858 /* libPods-mapboxIssue.a */,
 				F40DDFFF965AAF5286CC6E5C /* libPods-mapboxIssue-tvOS.a */,
 				76B8E353EF3A46308BCBFC77 /* libPods-mapboxIssue-tvOSTests.a */,
-				6C7129FF89B76F9BE1BB8867 /* libPods-mapboxIssueTests.a */,
+				41F6AF5BAC06A47D35E87BF8 /* Pods_mapboxIssue.framework */,
+				EA9F160D1EE6C667CD88AFA1 /* Pods_mapboxIssueTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -439,11 +439,69 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-mapboxIssue/Pods-mapboxIssue-frameworks.sh",
-				"${PODS_ROOT}/../../node_modules/@react-native-mapbox-gl/maps/ios/Mapbox.framework",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/4794199C-B164-3A2D-A3B4-553B7D49EDD5.bcsymbolmap",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/097AD13C-9FDA-310F-8B76-64CB67B06A27.bcsymbolmap",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/491A77E9-7DBC-3309-A93C-BADAE0DDBC6E.bcsymbolmap",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/3F114CA8-302D-327F-87C3-670E0EC63C9A.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-mapbox-gl/react_native_mapbox_gl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/4794199C-B164-3A2D-A3B4-553B7D49EDD5.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/097AD13C-9FDA-310F-8B76-64CB67B06A27.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/491A77E9-7DBC-3309-A93C-BADAE0DDBC6E.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/3F114CA8-302D-327F-87C3-670E0EC63C9A.bcsymbolmap",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_mapbox_gl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

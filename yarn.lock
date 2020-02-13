@@ -971,6 +971,16 @@
     "@turf/helpers" ">= 4.6.0 <7.0.0"
     underscore "^1.8.3"
 
+"@react-native-mapbox-gl/maps@react-native-mapbox-gl/maps#master":
+  version "7.2.0"
+  resolved "https://codeload.github.com/react-native-mapbox-gl/maps/tar.gz/150b8c287e503c256a4c51e2517c863c67badd5a"
+  dependencies:
+    "@mapbox/geo-viewport" ">= 0.4.0"
+    "@turf/along" ">= 4.0.0 <7.0.0"
+    "@turf/distance" ">= 4.0.0 <7.0.0"
+    "@turf/helpers" ">= 4.6.0 <7.0.0"
+    underscore "^1.8.3"
+
 "@turf/along@>= 4.0.0 <7.0.0":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@turf/along/-/along-6.0.1.tgz#595cecdc48fc7fcfa83c940a8e3eb24d4c2e04d4"

@@ -58,7 +58,11 @@ export default () => {
         />
 
         {/* If you remove key={activeUrl} it won't work anymore */}
-        <MapboxGL.ShapeSource id="shape" key={activeUrl} url={activeUrl}>
+        <MapboxGL.ShapeSource
+          id="shape"
+          // key={activeUrl}
+          url={activeUrl}
+        >
           <MapboxGL.FillLayer
             id="fill"
             type="fill"
