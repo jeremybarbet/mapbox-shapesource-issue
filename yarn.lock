@@ -960,17 +960,6 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
-"@react-native-mapbox-gl/maps@7.0.8":
-  version "7.0.8"
-  resolved "https://registry.yarnpkg.com/@react-native-mapbox-gl/maps/-/maps-7.0.8.tgz#f2d4ee09a889d1c62217c20ea29743f8ce0f886e"
-  integrity sha512-6LCvTx0ZJwaySjxlOtf4zUKHkMXOGCTANDBLtGoxZtrYdcvJNfd/rtSyR7c/0amljZEhxN0u1k0Q8hkNkxOgHg==
-  dependencies:
-    "@mapbox/geo-viewport" ">= 0.4.0"
-    "@turf/along" ">= 4.0.0 <7.0.0"
-    "@turf/distance" ">= 4.0.0 <7.0.0"
-    "@turf/helpers" ">= 4.6.0 <7.0.0"
-    underscore "^1.8.3"
-
 "@react-native-mapbox-gl/maps@react-native-mapbox-gl/maps#master":
   version "7.2.0"
   resolved "https://codeload.github.com/react-native-mapbox-gl/maps/tar.gz/150b8c287e503c256a4c51e2517c863c67badd5a"
@@ -4120,9 +4109,9 @@ lodash.unescape@4.0.1:
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
